@@ -2,7 +2,7 @@
   "name": "stickits",
   "version": "0.1.0",
   "private": true,
-  "homepage": "vajja-premsai.github.io/Prem_stickey_notes",
+  "homepage": "https://vajja-premsai.github.io/Prem_stickey_notes",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
