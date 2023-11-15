@@ -1,0 +1,184 @@
+/* ensure all pages have Bootstrap CSS */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.md-container {
+  /*max-width: 800px;*/
+  max-width: 100%;
+  padding-top: 2rem;
+}
+
+.sml-card {
+  width: 22rem;
+  margin: 1rem 0;
+}
+
+.cntr-footer {
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+}
+
+.sml-logo {
+  height: 1em;
+  margin-left: 10px;
+}
+
+body {
+  background-color: #282c34;
+  /*border-top: 8px solid lightslategray;*/
+}
+
+div.app.container {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0px;
+}
+
+.app-logo {
+  height: 57px;
+  width: 57px;
+  pointer-events: none;
+  vertical-align: middle;
+  border-radius: 25px;
+  margin: -8px 12px 0 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.app-header h2 {
+  font-size: 34px;
+  line-height: 108px;
+  margin: 0px;
+  padding: 4px 0 0 0;
+}
+
+.dash-btn {
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+span {
+  margin-left: 10px;
+  color: #444;
+}
+
+#sticky-btn-spacer {
+  margin: 0 0 0 20px;
+}
+
+.sticky-wrap {
+  margin: 0px auto;
+  padding-top: 20px;
+  background-color: #f1f1d4;
+  border-top: 8px solid #a0a8b6;
+}
+
+#sticky-notes {
+  border-top: 8px solid #a0a8b6;
+  margin-top: 20px;
+  background-color: #282c34;
+}
+
+.sticky-note {
+  height: 220px;
+  width: 220px;
+  color: #7f6c04;
+  background: #fdf1b5;
+  border-radius: 10px;
+  border: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 24px;
+  display: inline-block;
+  resize: both;
+  overflow: auto;
+}
+
+.sticky-title {
+  font: 20px bold;
+  text-align: center;
+  padding: 6px 0px;
+  margin: 3px 0 0 0;
+  height: 25px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.sticky-body {
+  font-size: 16px;
+  margin: 4px 0 0 0;
+  padding: 10px;
+  text-align: left;
+  height: 82%;
+  width: 100%;
+  border: none;
+  resize: none;
+  background-color: #fdf1b5;
+}
+
+.contents {
+  margin: 20px;
+  outline: none;
+}
+
+.handle {
+  cursor: move;
+  background: #7f6c04;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.handle .close {
+  cursor: pointer
+}
+
+#save {
+  margin-left: 7px;
+}
+
+html body .sticky-note div.close {
+  color: #3d3402;
+  opacity: 1;
+  text-shadow: 1px 0px 1px #a08805;
+  padding: 2px;
+}
+
+#main-footer {
+  clear: both;
+}
