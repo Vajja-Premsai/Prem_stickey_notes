@@ -1,6 +1,15 @@
 # Sticky Notes App
 
+
+
+# Prem Sticky Notes
+
 A simple Sticky Notes application built using React, React Bootstrap, and Next.js.
+
+## Live Demo
+
+[![Visit Live Demo](https://img.shields.io/badge/Visit-Live%20Demo-green)](https://vajja-premsai.github.io/Prem_stickey_notes/)
+
 
 ## Description
 
