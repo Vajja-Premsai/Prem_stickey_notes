@@ -13,7 +13,7 @@ This project is a web application that allows users to create, edit, and delete 
 - Delete unwanted sticky notes
 - Responsive design for various screen sizes
 
-## Tools Used
+## Tools Used check
 
 - [React](https://reactjs.org/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
